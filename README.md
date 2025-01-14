@@ -1,2 +1,2 @@
-# ash-nandan-github.io
+# ash-nandan.github.io
 Ash's Blog
