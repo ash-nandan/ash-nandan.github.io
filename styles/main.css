@@ -1,0 +1,119 @@
+body {
+  background-image: url('../img/Koenigsegg.png');
+  background-color: #312b2b;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-attachment: fixed;
+  background-position: left center;
+  color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  height: 20vmin;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  /* background-color: #312b2b; */
+  text-align: right;
+}
+
+#body-heading {
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  border-radius: 10px;
+  max-width: auto;
+  margin-right: 30em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#header-nav-links {
+  width: 100vmin;
+  /* padding-top: 10vmin; */
+}
+
+#header-nav-links a {
+  text-decoration: none;
+  font-family: 'Garamond', serif;
+  font-weight: 900;
+  font-size: 20px;
+  font-style: normal;
+  color: #ffffff;
+  margin-right: 2px;
+}
+#header-nav-links a:hover {
+  color: #a00c0c;
+  text-decoration: line-through;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: #130d0d;
+  content: '|';
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+#body-intro {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+}
+/* h1 {
+  font-size: 5vmin;
+  font-family: 'Garamond', serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: 'SOFT' 0, 'WONK' 0;
+  color: #ffffff;
+}*/
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.column {
+  float: left;
+  width: 48%;
+  padding: 2px 25px 2px 2px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
