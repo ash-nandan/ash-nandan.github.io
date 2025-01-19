@@ -1,37 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url('../img/Koenigsegg.png');
   background-color: #312b2b;
   background-repeat: no-repeat;
-  /*background-size: cover;*/
   background-attachment: fixed;
+  background-size: 40% 100%;
   background-position: left top;
   color: #ffffff;
 }
 
-.header-container {
-  display: flex;
-  height: 20vmin;
-  align-content: center;
-  align-items: center;
-  justify-content: flex-end;
-  /* background-color: #312b2b; */
-  text-align: right;
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+p {
+  font-size: 103%;
 }
 
 #body-heading {
   font-weight: 400;
   font-style: normal;
   color: #ffffff;
-  /* border-radius: 10px;
-  max-width: auto;
-  margin-right: 30em; */
   display: flex;
   justify-content: space-around;
 }
 
 #header-nav-links {
-  width: 100vmin;
-  /* padding-top: 10vmin; */
+  width: 50%;
 }
 
 #header-nav-links a {
@@ -46,6 +45,15 @@ body {
 #header-nav-links a:hover {
   color: #a00c0c;
   text-decoration: line-through;
+}
+
+.header-container {
+  display: flex;
+  height: 20vmin;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
 }
 
 ul.breadcrumb {
@@ -72,33 +80,6 @@ ul.breadcrumb li a {
   margin-left: auto;
   margin-right: 0;
 }
-/* h1 {
-  font-size: 5vmin;
-  font-family: 'Garamond', serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  font-variation-settings: 'SOFT' 0, 'WONK' 0;
-  color: #ffffff;
-}*/
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;
-}
-
-div {
-  display: block;
-  unicode-bidi: isolate;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 .row {
   margin-left: -5px;
@@ -111,7 +92,6 @@ div {
   padding: 2px 25px 2px 2px;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
   content: '';
   clear: both;
