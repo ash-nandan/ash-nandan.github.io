@@ -12,6 +12,11 @@ body {
   color: #ffffff;
 }
 
+footer {
+  text-align: center !important;
+  height: 2.5vmin;
+}
+
 div {
   display: block;
   unicode-bidi: isolate;
@@ -19,6 +24,8 @@ div {
 
 p {
   font-size: 103%;
+  text-align: right;
+  position: right;
 }
 
 #body-heading {
