@@ -19,8 +19,8 @@ div {
 
 p {
   font-size: 103%;
-  text-align: right;
-  position: right;
+  text-align: left;
+  position: left !important;
 }
 
 #body-heading {
