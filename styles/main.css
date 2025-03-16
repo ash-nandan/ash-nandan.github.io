@@ -21,6 +21,15 @@ body {
   background-color: #2e2727ab;
   color: white;
 }
+
+#main {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 40%;
+}
+
 div {
   display: block;
   unicode-bidi: isolate;
@@ -37,33 +46,6 @@ p {
   color: #ffffff;
   display: flex;
   justify-content: space-around;
-}
-
-#header-nav-links {
-  width: 50%;
-}
-
-#header-nav-links a {
-  text-decoration: none;
-  font-family: 'Garamond', serif;
-  font-weight: 900;
-  font-size: 20px;
-  font-style: normal;
-  color: #ffffff;
-  margin-right: 2px;
-}
-#header-nav-links a:hover {
-  color: #a00c0c;
-  text-decoration: line-through;
-}
-
-.header-container {
-  display: flex;
-  height: 20vmin;
-  align-content: center;
-  align-items: center;
-  justify-content: flex-end;
-  text-align: right;
 }
 
 ul.breadcrumb {
@@ -106,4 +88,17 @@ ul.breadcrumb li a {
   content: '';
   clear: both;
   display: table;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-y: hidden;
+  transition: 0.5s ease;
+  padding-top: 60px;
 }

@@ -4,22 +4,112 @@
     <title>Identity and Value</title>
     <meta charset="UTF-8" />
     <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="../main.js" rel="script" type="text/javascript" />
+
+    <style>
+      /* Start of navigation bar styling */
+
+      body {
+        font-family: 'Lato', sans-serif;
+        transition: background-color 0.5s;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-y: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      #main {
+        transition: margin-left 0.5s;
+        padding: 16px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 15px;
+        }
+        .sidenav a {
+          font-size: 18px;
+        }
+      }
+
+      /* end of navigation bar styling  */
+    </style>
+
+    <!-- /* Start of navigation bar */ -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+    >&times;</a
+  >
+  <li><a href="../index.html">Home</a></li>
+    <li><a href="../blog/te-houtaewa-template.html">Te Houtaewa</a></li>
+    <li><a href="../blog/html-and-css.html">HTML & CSS</a></li>
+    <li><a href="../blog/learning-plan.html">Learning Plan</a></li>
+    <li><a href="../blog/identity-and-value.html">Identity and Value</a></li>
+    <li><a href="../blog/emotional-intelligence.html">Emotional Intelligence</a></li>
+    <li><a href="../blog/DOM.html">DOM</a></li>
+    <li><a href="../blog/neuroplasticity.html">Neuroplasticity</a></li>
+</div>
+
+<div id="main">
+  <h2></h2>
+  <p></p>
+  <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+    >&#9776; </span
+  >
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById('mySidenav').style.width = '250px'
+    document.getElementById('main').style.marginLeft = '250px'
+    document.body.style.backgroundColor = rgb(192, 192, 245)
+  }
+
+  function closeNav() {
+    document.getElementById('mySidenav').style.width = '0'
+    document.getElementById('main').style.marginTop = '0'
+    document.body.style.backgroundColor = rgb(192, 192, 245)
+  }
+</script>
+<!-- /* End of navigation bar */ -->
+
+
   </head>
 
   <body>
-    <body>
       <div class="header-container">
         <ul class="breadcrumb" id="header-nav-links">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="te-houtaewa-template.html">Te-Houtaewa</a></li>
-          <li><a href="html-and-css.html">HTML & CSS</a></li>
-          <li><a href="learning-plan.html">Learning Plan</a></li>
-          <li><a href="identity-and-value.html">Identity and Value</a></li>
-          <li>
-            <a href="emotional-intelligence.html">Emotional Intelligence</a>
-          </li>
-          <li><a href="DOM.html">DOM</a></li>
-          <li><a href="neuroplasticity.html">Neuroplasticity</a></li>
+          
         </ul>
       </div>
   
@@ -43,25 +133,25 @@
           <tr>
             <p>
               In a previous job as a duty manager at a pub, I faced a
-              challenging situation with a family who finished their meals but
+              challenging situation with a family who finished their meal but
               refused to pay, despite not raising any complaints during a meal
               check. I weighed the situation by considering fairness,
-              responsibility, and integrity—whether I should give in to the
+              responsibility, and integrity; whether I should give in to the
               customers' demands or stand firm knowing they were being
               unreasonable. Early in my career, I had been taught that "the
               customer is always right," but at the pub, I knew the owner valued
               integrity and would not want me to let these customers walk away
               without paying their $200+ bill after consuming most of their
-              food. I felt confident in standing my ground, knowing that both
+              dishes. I felt confident in standing my ground, knowing that both
               the owner and my staff would support me. I remained calm,
               professional, and firm, despite the customers becoming hostile.
               When the family wrote a negative review, the owner later confirmed
-              that the situation was complicated by their past with him, but
+              that the situation was complicated due to his past with the customer, but
               praised my handling of it. Reflecting on this decision, I’m proud
-              that I didn’t back down, as giving up and losing revenue would
+              that I didn’t back down as giving up and losing revenue would
               have compromised my sense of fairness and integrity. I learned the
               importance of balancing customer service with protecting the
-              business’s interests and maintaining professionalism under
+              business’ interests and maintaining professionalism under
               pressure.
             </p>
           </tr>
@@ -83,12 +173,12 @@
           </tr>
           <tr>
             <p>
-              The people around me and my experiences, particularly in my first
-              bar job, have greatly influenced my values and identity. Growing
+              The people around me and my experiences; particularly at my first
+              bar job have greatly influenced my values and identity. Growing
               up sheltered, I struggled with being shy and standing up for
               myself. However, working in busy bars and pubs, surrounded by
-              supporive colleagues and managers, helped my build confidence and
-              learn how to assert myself. My earlier restaurant jobs, where I
+              supporive colleagues and managers helped build my confidence and I
+              learnt how to assert myself. My earlier restaurant jobs, where I
               was taught to always cater to customers, shaped a mentality that
               overlooked my own needs and values. But in the bar industry, I
               learned the importance of fairness, integrity, and standing my
@@ -127,9 +217,9 @@
               accustomed to planning and dividing tasks to ensure success.
               Social intelligence, developed through years of working in
               hospitality, allows me to read social cues, understand others'
-              emotions, and adapt to different situations—skills that will be
+              emotions, and adapt to different situations; skills that will be
               valuable in interacting with peers and instructors. Additionally,
-              kindness and a willingness to help others will foster a positive
+              kindness and willingness to help others will foster a positive
               and collaborative learning environment, where I can both
               contribute and seek support when needed. These strengths will help
               me navigate challenges, build strong relationships, and maintain a
@@ -196,7 +286,7 @@
            I had everything under control, but it felt like she was trying to overtake my responsibilities, which was uncalled for.
 
 Although I tried to be a good colleague when she first joined—staying out of her way and letting her manage her shifts in her own style—I didn’t 
-understand why she was undermining me on my own shift. Tension was palpable whenever she was around. Despite this, I focused on doing my job and 
+understand why she was undermining me on my shift. Tension was palpable whenever she was around. Despite this, I focused on doing my job and 
 tried to get past the discomfort. However, when she continued to interfere and became more controlling, I decided to confront her each time. She often 
 took offense to any feedback, which made the situation difficult.
 
@@ -214,6 +304,11 @@ a similar situation now, I wouldn’t change my strategy—open communication an
  <div class="footer">
   <p style="text-align: center">Copyright (c) 2025 Ash Nandan</p>
 </div>
+
+
+  </div>
+</div>
+
 </body>
 </html>
 
