@@ -1,0 +1,212 @@
+<html>
+  <head>
+    <title>Te Whare Tapa Wha</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="../main.js" rel="script" type="text/javascript" />
+
+    <style>
+            /* Start of navigation bar styling */
+
+            body {
+              font-family: 'Lato', sans-serif;
+              transition: background-color 0.5s;
+            }
+
+            .sidenav {
+              height: 100%;
+              width: 0;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: #111;
+              overflow-y: hidden;
+              transition: 0.5s;
+              padding-top: 60px;
+            }
+
+            .sidenav a {
+              padding: 8px 8px 8px 32px;
+              text-decoration: none;
+              font-size: 25px;
+              color: #818181;
+              display: block;
+              transition: 0.3s;
+            }
+
+            .sidenav a:hover {
+              color: #f1f1f1;
+            }
+
+            .sidenav .closebtn {
+              position: absolute;
+              top: 0;
+              right: 25px;
+              font-size: 36px;
+              margin-left: 50px;
+            }
+
+            #main {
+              transition: margin-left 0.5s;
+              padding: 16px;
+            }
+
+            @media screen and (max-height: 450px) {
+              .sidenav {
+                padding-top: 15px;
+              }
+              .sidenav a {
+                font-size: 18px;
+              }
+            }
+
+            /* end of navigation bar styling  */
+
+
+          /* Start of table styling */
+          table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid  #312b2b;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color:  #312b2b;
+      }
+
+      /* End of table styling */ */
+    </style>
+
+    <!-- /* Start of navigation bar */ -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <li><a href="../index.html">Home</a></li>
+      <li>
+        <a href="../blog/te-houtaewa-template.html">Te Houtaewa</a>
+      </li>
+      <li>
+        <a href="../blog/html-and-css.html">HTML & CSS</a>
+      </li>
+      <li>
+        <a href="../blog/learning-plan.html">Learning Plan</a>
+      </li>
+      <li>
+        <a href="../blog/identity-and-value.html">Identity and Value</a>
+      </li>
+      <li>
+        <a href="../blog/emotional-intelligence.html">Emotional Intelligence</a>
+      </li>
+      <li><a href="../blog/DOM.html">DOM</a></li>
+      <li>
+        <a href="../blog/neuroplasticity.html">Neuroplasticity</a>
+      </li>
+      <li><a href="../blog/Te-Whare-Tapa-Wha.html"> Te Whare Tapa Wha</a></li>
+    </div>
+
+    <div id="main">
+      <h2></h2>
+      <p></p>
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;
+      </span>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById('mySidenav').style.width = '250px'
+        document.getElementById('main').style.marginLeft = '250px'
+        document.body.style.backgroundColor = rgb(192, 192, 245)
+      }
+
+      function closeNav() {
+        document.getElementById('mySidenav').style.width = '0'
+        document.getElementById('main').style.marginTop = '0'
+        document.body.style.backgroundColor = rgb(192, 192, 245)
+      }
+    </script>
+    <!-- /* End of navigation bar */ -->
+  </head>
+
+  <body>
+    <div class="header-container">
+      <ul class="breadcrumb" id="header-nav-links"></ul>
+    </div>
+
+    <div class="row" id="body-content">
+      <div class="column" id="space-holder">
+        <!--holds space to keep the paragrap right aligned-->
+      </div>
+
+      <div class="column">
+        <table>
+          <tr>
+            <h1 class="body-heading" id="body-heading">
+              <u>Te Whare Tapa Whā</u>
+            </h1>
+          </tr>
+          <br /><br />
+          <br /><br />
+
+          <tr>
+            <th><u>WALL</u></th>
+            <th><u>ACTIVITIES</u></th>
+          </tr>
+          <tr>
+            <td>Physical Well-Being</td>
+            <td>Going to the gym 3-4 times per week</td>
+          </tr>
+          <tr>
+            <td>Family Well-Being</td>
+            <td>Having dinner and watching a movie together most evenings</td>
+          </tr>
+          <tr>
+            <td>Spiritual Well-Being</td>
+            <td>
+              I've never known how to take care of myself spiritually but I
+              tried something new this year which was writing my thoughts and
+              feelings down. I was never a big fan of such thing and I don't
+              even know if it actually helped me. Not 100% sure how I feel about
+              journaling. Though, I'm guessing there is another way to take care
+              of myself spiritually. I just need to find it.
+            </td>
+          </tr>
+
+          <tr>
+            <td>Emotional and Mental Well-Being</td>
+            <td>
+              Isolating myself in my room or a space where it's just me and my
+              headphones and music. I also like to do arts and crafts which
+              surprisingly has helped me calm down and relax.
+            </td>
+          </tr>
+          <tr>
+            <td>Whenua</td>
+            <td>
+              Few times a year whenever I get the chance. I take myself far away
+              somewhere like on a long road trip (I enjoy road trips a lot but
+              hardly ever get to do it) I go somewhere peaceful and quiet and
+              with less people around with no noise. Somwhere I can actually
+              hear my inner thoughts and to feel connected to nature and myself.
+              It helps me forget my stresses and worries for a moment. This also
+              helps me to clear my head.
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p style="text-align: center">Copyright (c) 2025 Ash Nandan</p>
+    </div>
+  </body>
+</html>
