@@ -12,6 +12,10 @@ body {
   color: #ffffff;
 }
 
+element.style {
+  background-color: rgb(49, 43, 43);
+}
+
 .footer {
   position: fixed;
   left: 0;
