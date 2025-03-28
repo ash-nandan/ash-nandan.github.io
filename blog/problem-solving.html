@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Problem Solving</title>
+    <meta charset="UTF-8" />
+  
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="../main.js" rel="script" type="text/javascript" />
+
+    <style>
+      /* Start of navigation bar styling */
+
+      body {
+        font-family: 'Lato', sans-serif;
+        transition: background-color 0.5s;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-y: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      #main {
+        transition: margin-left 0.5s;
+        padding: 16px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 15px;
+        }
+        .sidenav a {
+          font-size: 18px;
+        }
+      }
+
+      /* end of navigation bar styling  */
+
+ /* Start of table styling */
+ table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid  #000000;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color:  #312b2b;
+      }
+
+      /* End of table styling */ */
+
+    </style>
+
+    <!-- /* Start of navigation bar */ -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+    >&times;</a
+  >
+  <li><a href="../index.html">Home</a></li>
+    <li><a href="../blog/te-houtaewa-template.html">Te Houtaewa</a></li>
+    <li><a href="../blog/html-and-css.html">HTML & CSS</a></li>
+    <li><a href="../blog/learning-plan.html">Learning Plan</a></li>
+    <li><a href="../blog/identity-and-value.html">Identity and Value</a></li>
+    <li><a href="../blog/emotional-intelligence.html">Emotional Intelligence</a></li>
+    <li><a href="../blog/DOM.html">DOM</a></li>
+    <li><a href="../blog/neuroplasticity.html">Neuroplasticity</a></li>
+    <li>
+      <a href="../blog/Te-Whare-Tapa-Wha.html"
+        >Te Whare Tapa Wha</a
+      >
+    </li>
+    <li><a href="../blog/problem-solving.html">Problem Solving</a></li>
+</div>
+
+<div id="main">
+  <h2></h2>
+  <p></p>
+  <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+    >&#9776; </span
+  >
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById('mySidenav').style.width = '250px'
+    document.getElementById('main').style.marginLeft = '250px'
+    document.body.style.backgroundColor = rgb(49, 43, 43)
+  }
+
+  function closeNav() {
+    document.getElementById('mySidenav').style.width = '0'
+    document.getElementById('main').style.marginTop = '0'
+    document.body.style.backgroundColor = rgb(49, 43, 43)
+  }
+</script>
+<!-- /* End of navigation bar */ -->
+
+
+
+<div class="row" id="body-content">
+  <div class="column" id="space-holder">
+    <!--holds space to keep the paragrap right aligned-->
+  </div>
+  <div class="column">
+    <table>
+      <tr>
+        <h1 class="body-heading" id="body-heading"><u>Problem Solving </u></h1>
+      </tr>
+     <br><br>
+      <tr>
+        <h2>
+          <u>Time I Was Blocked On A Simple Problem: </u>
+        </h2>
+      </tr>
+      <tr>
+        <p>
+          This is actually a funny one. When I was doing the flipflop challenge; I don't know how I ignored the //write your code above this line// instruction and wrote my code below this instruction. 
+          I kept getting errors and I started feeling so overwhelmed and frustrated. I went on discord for reference since someone else was stuck on the same problem and I thought it was my code that was the issue. 
+          I also asked my partner for help. 
+          But the error kept saying that I had already declared the flipflop function and we both were so focused on solving the error messages that we didn't pay attention to where I had put my code.
+          So, she told me to rename my code function, that didn't work 
+          either. I just felt like giving up. Till I read the instruction again. I assumed I'd have to write my code below the line because for the first 2 challenges I had to write my code below where
+           specified. So I just assumed this for flipflop challenge as well. What I learnt is that I really should read the instructions carefully. And this isn't the first time I've made this mistake 
+           during foundations course. I really need to get better at reading. 
+
+        </p>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<div class="row" id="body-content">
+  <div class="column" id="space-holder">
+    <!--holds space to keep the paragrap right aligned-->
+  </div>
+  <div class="column">
+    <table>
+      <tr>
+        <h1 class="body-heading" id="body-heading"></h1>
+      </tr>
+      
+      <tr>
+        <h2>
+          <u>Time I Elegantly Solved A Problem:</u>
+          
+        </h2>
+      </tr>
+      <tr>
+        <p>
+          Not sure I came across a problem I elegantly solved. Though, I remember the deBee challenge and i was majorly stuck on it for over an hour. And I couldn't ask anyone for help since I 
+          have a bad habit of studying super late at night when everyone else have gone to bed. But there were new code I wasn't familiar with like .spilt, .filter and .join
+          And I kept thinking well I haven't learnt this, how am I going to solve this problem. I decided to go on freeCodeCamp and do some exercises to familiarise myself with even more JavaScript.
+           That actually put me at ease. No matter how much I learn or research, it takes a long time for something I've never done in my life to stick to my head. After codecamp, I decided that's enough 
+           learning, and I should leave a message for my tutor about the deBee challenge and go to bed. But for some reason I didn't want to stop. I went back to the deBee challenge, read the instructions 
+           again which made sense after revisiting it the second time. And the method I used was 'trying something' tried different code a few times and I got it!! Being stuck on this challenge for an hour
+            or so did frustrate me a lot. After figuring out the solution, I felt so happy and relived. 
+          
+        </p>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<div class="row" id="body-content">
+  <div class="column" id="space-holder">
+    <!--holds space to keep the paragrap right aligned-->
+  </div>
+  <div class="column">
+    <table>
+      <tr>
+        <h1 class="body-heading" id="body-heading"></h1>
+      </tr>
+      
+      <tr>
+        <h2>
+          <u>A Time I Was Reluctant To Ask For Help:</u>
+        </h2>
+      </tr>
+      <tr>
+        <p>
+          To be fair, I don't have a problem asking for help. My only issue is that I have a terrible sleeping pattern and when everyone else are awake and working on foundations course during 
+          the day; I'll be in bed asleep. And when I decide to study; it'll be super late at night like after 10pm and I'll be up all night. But if I'm seriously stuck on something, I do leave a message 
+          for my facilitator when I know I won't be able to figure out the problem without their help. I do always feel reluctant to ask
+           for help in the group channel though. 
+        </p>
+      </tr>
+    </table>
+  </div>
+</div>
+<br><br>
+
+
+
+<div class="row" id="body-content">
+  <div class="column" id="space-holder">
+    <!--holds space to keep the paragrap right aligned-->
+  </div>
+  <div class="column">
+    <table>
+      <tr>
+        <h1 class="body-heading" id="body-heading"><img src="sad-cat-meme.jpg" alt="sad-cat-meme"  width="300" height="340" /></h1>
+      </tr>
+      
+      <tr>
+        <h2>
+          <u></u>
+        </h2>
+      </tr>
+      <tr>
+        <p>
+            
+        </p>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+<br><br>
+
+<div class="row" id="body-content">
+  <div class="column" id="space-holder">
+    <!--holds space to keep the paragrap right aligned-->
+  </div>
+
+  <div class="column">
+    <table>
+      <tr>
+        <h1 class="body-heading" id="body-heading">
+          <u>Problem Solving Methods</u>
+        </h1>
+      </tr>
+      <br />
+  
+      <tr>
+        <th><u>Methods</u></th>
+        <th><u></u></th>
+      </tr>
+      <tr>
+        <td>Rubber Ducky:</td>
+        <td>I haven't heard of this method. Though, after researching what rubber ducky method is, I feel
+           like I have done something similar to this method. But instead of using inanimate object; I just talk to myself at times out loud (when I'm alone) Majority of 
+           the times I talk to myself in my head wherever I go or whatever I do. My mind is constantly racing especially when I'm talking to myself. And I found out that 
+           this helps me a lot to achieve clarity especially when I'm dealing with a problem or if it's something random. 
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Reading Error Messages:</td>
+        <td> I feel like I'm getting better at reading error messages. It shows me where exactly the problem was and what needed to be fixed. 
+          But I need to keep working on deconstructing error messages because I was still stuck on few problems even after reading the error messages.
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Console.log:</td>
+        <td>
+          I'm still getting used to this though I didn't understand when and where to use console.log when my terminal was already showing me what the issue was.
+           However, I am looking forward to using console.log in the future.
+        </td>
+      </tr>
+
+      <tr>
+        <td>Googling:</td>
+        <td>
+          I've used google a lot for foundation study and so far it's been reliable. I did quite a bit of research for kata challenge especially since JavaScript
+           is new to me and I'm still trying to get JavaScript through my head.
+
+        </td>
+      </tr>
+      <tr>
+        <td>Asking Your Peers For Help:</td>
+        <td>
+          Not very good at this. This is something I could improve on, although it feels weird asking for help over 
+          discord in a group setting from people I don't know or haven't met. I'm good at working in a team and asking for help especially 
+          after having a rapport with other students. Or if we started off in a campus and meeting my peers, it would of been easy to ask 
+          for help. I've never done this style of learning either, so I'm taking my time getting used to it. For group projects, I definitely 
+          will be ok and comfortable asking for help since it'll be just maybe certain number of people in a group working towards the same project/goal.   
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>Asking Coaches For Help:</td>
+        <td>
+          I'm really good at this. Whenever I was stuck; usually I try to figure out the problem first all by myself (I guess it's a way of me challenging myself) 
+          or ask my partner since she's a developer though she's always encouraging me to research or ask my tutors. I've gotten a lot of answers to my problems
+           from research or just sitting back and staring at my screen and experimenting. However, I've always been comfortable asking my tutors for help because 
+           it's one on one and I don't feel like I'm asking stupid questions when I'm talking to a tutor compared to in a group setting. I'll definitely will be 
+           asking my tutors for help a lot during bootcamp for sure. There's been a few times where I ask my facilitator for help, but then before they reply, I 
+           already have figured out the solution. 
+
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>Trying Something:</td>
+        <td>
+          I feel like I'm very good at this. Up until now, I never realised I was working with this method all my life. 
+          I do admit there are many times I hesitate to ask for help (generally speaking) and I start experimenting and trying
+           out different solutions to problems. I do like to experiment and am open to trying out new things and I also like to 
+           challenge myself to find the answer, though I do know when to ask help from others when needed.  Many times I've found 
+           myself being stuck here and there during Foundations; and I just sit back and stare at my screens till something clicks 
+           or think to myself "what if I try this?" and it usually works out for me. Just a breather and pause and experimenting. I used this method a lot for Kata challenge.
+
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>Improving Your Process With Reflection:</td>
+        <td>
+          I feel like I'm really good at reflections and thinking about what I've done and how I can improve. 
+          I've done this a lot at my previous workplaces which helps me be a better team player and worker. When it 
+          comes to course, I am good at writing reflections and my thought and feelings down; it does help me reflect
+           my own thought process though most of the times when I'm writing down reflections; I mainly write about how 
+           I felt during the moment rather than what I can improve on. I guess in my head I know what I should improve 
+           on and I usually don't always bother writing it down. 
+
+        </td>
+      </tr>
+
+
+    </table>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+  <p style="text-align: center">Copyright (c) 2025 Ash Nandan</p>
+</div>
+
+
+  </div>
+</div>
+
+</body>
+</html>
+
+
