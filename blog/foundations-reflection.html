@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Foundations Reflection</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="../main.js" rel="script" type="text/javascript" />
+
+    <style>
+            /* Start of navigation bar styling */
+
+            body {
+              font-family: 'Lato', sans-serif;
+              transition: background-color 0.5s;
+            }
+
+            .sidenav {
+              height: 100%;
+              width: 0;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: #111;
+              overflow-y: hidden;
+              transition: 0.5s;
+              padding-top: 60px;
+            }
+
+            .sidenav a {
+              padding: 8px 8px 8px 32px;
+              text-decoration: none;
+              font-size: 25px;
+              color: #818181;
+              display: block;
+              transition: 0.3s;
+            }
+
+            .sidenav a:hover {
+              color: #f1f1f1;
+            }
+
+            .sidenav .closebtn {
+              position: absolute;
+              top: 0;
+              right: 25px;
+              font-size: 36px;
+              margin-left: 50px;
+            }
+
+            #main {
+              transition: margin-left 0.5s;
+              padding: 16px;
+            }
+
+            @media screen and (max-height: 450px) {
+              .sidenav {
+                padding-top: 15px;
+              }
+              .sidenav a {
+                font-size: 18px;
+              }
+            }
+
+            /* end of navigation bar styling  */
+
+
+          /* Start of table styling */
+          table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid  #312b2b;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color:  #312b2b;
+      }
+
+      /* End of table styling */ */
+    </style>
+
+    <!-- /* Start of navigation bar */ -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <li><a href="../index.html">Home</a></li>
+      <li>
+        <a href="../blog/te-houtaewa-template.html">Te Houtaewa</a>
+      </li>
+      <li>
+        <a href="../blog/html-and-css.html">HTML & CSS</a>
+      </li>
+      <li>
+        <a href="../blog/learning-plan.html">Learning Plan</a>
+      </li>
+      <li>
+        <a href="../blog/identity-and-value.html">Identity and Value</a>
+      </li>
+      <li>
+        <a href="../blog/emotional-intelligence.html">Emotional Intelligence</a>
+      </li>
+      <li><a href="../blog/DOM.html">DOM</a></li>
+      <li>
+        <a href="../blog/neuroplasticity.html">Neuroplasticity</a>
+      </li>
+      <li><a href="../blog/Te-Whare-Tapa-Wha.html"> Te Whare Tapa Wha</a></li>
+      <li><a href="../blog/problem-solving.html">Problem Solving</a></li>
+      <li>
+        <a href="../blog/foundations-reflection.html">Foundations Reflection</a>
+      </li>
+    </div>
+
+    <div id="main">
+      <h2></h2>
+      <p></p>
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;
+      </span>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById('mySidenav').style.width = '250px'
+        document.getElementById('main').style.marginLeft = '250px'
+        document.body.style.backgroundColor = rgb(49, 43, 43)
+      }
+
+      function closeNav() {
+        document.getElementById('mySidenav').style.width = '0'
+        document.getElementById('main').style.marginTop = '0'
+        document.body.style.backgroundColor = rgb(49, 43, 43)
+      }
+    </script>
+    <!-- /* End of navigation bar */ -->
+  </head>
+
+  <body>
+    <div class="header-container">
+      <ul class="breadcrumb" id="header-nav-links"></ul>
+    </div>
+
+    <div class="row" id="body-content">
+      <div class="column" id="space-holder">
+        <!--holds space to keep the paragrap right aligned-->
+      </div>
+      <div class="column">
+        <table>
+          <tr>
+            <h1 class="body-heading" id="body-heading">Foundations Reflection</h1>
+          </tr>
+          <br /><br />
+          <tr>
+            <h2>
+              <u
+                >What are three new things you have learnt about yourself and
+                your ego due to the Human Skills learning?</u
+              >
+            </h2>
+          </tr>
+          <tr>
+            <p></p>
+              The three new things I have learnt about myself and my ego is that
+              I am more buoyant than I thought, I tend to underestimate my
+              ability to adapt to new challenges, and I have the tendency to be
+              overly critical of myself, which can sometimes block my progress. I know that I have a lot to learn yet I couldn't be nice and patient with myself and I would get frustrated when 
+              I didn't understand something right away. 
+               My ego sometimes got in the way of my learning and development. 
+               For example, I have a tendency to want to prove myself and show that I am capable, which can
+                lead me to take on too much at once or avoid asking for help when I need it.
+              
+            </p>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="header-container">
+      <ul class="breadcrumb" id="header-nav-links"></ul>
+    </div>
+
+    <div class="row" id="body-content">
+      <div class="column" id="space-holder">
+        <!--holds space to keep the paragrap right aligned-->
+      </div>
+      <div class="column">
+        <table>
+          <tr>
+            <h1 class="body-heading" id="body-heading"></h1>
+          </tr>
+          
+          <tr>
+            <h2>
+              <u
+                >What are the role of values, empathy, and self-awareness in
+                learning and programming?</u
+              >
+            </h2>
+          </tr>
+          <tr>
+            <p>
+              The role of values, empathy, and self-awareness in learning and
+              programming is to provide a foundation for effective
+              collaboration, problem-solving, and personal growth. Empathy allows us to understand and connect with
+              others, fostering teamwork and better communication, however I had a hard time practising this since this style of
+              learning is very new to me and I still feel weird going on discord and asking for help on the channel.
+              Self-awareness helps us recognize our strengths and weaknesses,
+              enabling us to continuously improve and adapt to challenges. I think I'm slowly getting good at this but 
+              I still have a long way to go. 
+            </p>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="header-container">
+      <ul class="breadcrumb" id="header-nav-links"></ul>
+    </div>
+
+    <div class="row" id="body-content">
+      <div class="column" id="space-holder">
+        <!--holds space to keep the paragrap right aligned-->
+      </div>
+      <div class="column">
+        <table>
+          <tr>
+            <h1 class="body-heading" id="body-heading"></h1>
+          </tr>
+          
+          <tr>
+            <h2>
+              <u
+                >What has surprised you the most about the Human Skills
+                learning?</u
+              >
+            </h2>
+          </tr>
+          <tr>
+            <p>
+              That how important it is to have a good understanding of your own
+              values and how they affect your decisions and actions. I have also
+              learnt that empathy is a key component of effective communication
+              and collaboration, and that self-awareness is essential for
+              personal growth and development. I have also been surprised by how
+              much I have enjoyed the Human Skills learning, and how it has
+              helped me to develop a greater understanding of myself and others around me. 
+            </p>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="header-container">
+      <ul class="breadcrumb" id="header-nav-links"></ul>
+    </div>
+
+    <div class="row" id="body-content">
+      <div class="column" id="space-holder">
+        <!--holds space to keep the paragrap right aligned-->
+      </div>
+      <div class="column">
+        <table>
+          <tr>
+            <h1 class="body-heading" id="body-heading"></h1>
+          </tr>
+          
+          <tr>
+            <h2>
+              <u
+                >What were the most challenging aspects of the Human Skills
+                learning?</u
+              >
+            </h2>
+          </tr>
+          <tr>
+            <p>
+              The most challenging aspects of the Human Skills learning were
+              confronting my own biases and assumptions, as well as learning to
+              manage my emotions effectively in stressful situations or problem solving. I
+              found it difficult to be vulnerable and open with my peers, These
+              challenges required a lot of self-reflection and effort to
+              overcome, but they are gradually helping me grow as an individual. I always found that things like journaling or writing down
+               thoughts and feelings 
+              to be a bit of a chore and weird, I never really understood the point of it and I thought it was a waste of time.
+               I never really liked it but I'm starting to realise it's usefulness.
+               I have found that journaling has helped me to process my thoughts and feelings,
+                and to gain a better understanding of myself. Better late than never I guess.
+            </p>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="header-container">
+      <ul class="breadcrumb" id="header-nav-links"></ul>
+    </div>
+
+    <div class="row" id="body-content">
+      <div class="column" id="space-holder">
+        <!--holds space to keep the paragrap right aligned-->
+      </div>
+      <div class="column">
+        <table>
+          <tr>
+            <h1 class="body-heading" id="body-heading"></h1>
+          </tr>
+          
+          <tr>
+            <h2>
+              <u
+                >Why do you think we, a programming school, are spending so much
+                time focusing on Human Skills learning in a web development
+                Bootcamp course?</u
+              >
+            </h2>
+          </tr>
+          <tr>
+            <p>
+              A programming school focuses on Human Skills learning because
+              technical skills alone are not enough to succeed in the industry.
+              Effective communication, teamwork, empathy, and self-awareness are
+              crucial for collaborating with others, understanding client needs,
+              and solving complex problems. These skills help create a positive
+              work environment and ensure that developers can adapt to
+              challenges, work well in teams, and build meaningful connections
+              with colleagues and clients. 
+            </p>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="header-container">
+      <ul class="breadcrumb" id="header-nav-links"></ul>
+    </div>
+
+    <div class="row" id="body-content">
+      <div class="column" id="space-holder">
+        <!--holds space to keep the paragrap right aligned-->
+      </div>
+      <div class="column">
+        <table>
+          <tr>
+            <h1 class="body-heading" id="body-heading"></h1>
+          </tr>
+          
+          <tr>
+            <h2>
+              <u
+                >Does the time you spent studying Human Skills learning here
+                feel like a waste of time? Should you have just used that time
+                to practise programming instead?
+              </u>
+            </h2>
+          </tr>
+          <tr>
+            <p>
+              Not at all. The time spent studying Human Skills learning does not feel
+              like a waste of time. While technical skills are essential, Human
+              Skills are equally important for becoming a well-rounded
+              developer. These skills have helped me improve my communication (maybe not with my classmates yet but has helped my 
+              personal relationships)
+               and problem-solving abilities, which are critical in
+              real-world programming environments. Balancing both technical and
+              human skills ensures that I am better prepared to collaborate
+              effectively and adapt to challenges in my career. I'm glad I got an opportunity to study about Human skills. I had no idea how important they were until I started learning about it.
+            
+            </p>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
