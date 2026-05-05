@@ -6,7 +6,7 @@ body {
   background-image: url('../img/Koenigsegg.png');
   background-color: #312b2b;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed, scroll;
   background-size: 47% 100%;
   background-position: left top;
   color: #ffffff;
@@ -26,7 +26,7 @@ element.style {
 
 .footer {
   position: fixed;
-  font-size: medium;
+  font-size: small;
   left: 0;
   bottom: 0;
   height: 6%;
