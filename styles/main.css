@@ -22,14 +22,6 @@ body {
     background-position: top left;
     padding-top: 450px;
   }
-
-  h1,
-  p {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  }
 }
 
 h3 {
@@ -45,11 +37,11 @@ element.style {
 .footer {
   position: fixed;
   font-size: small;
-  left: 0;
+  left: 150px;
   bottom: 0;
   height: 6%;
   width: 47%;
-  background-color: #2e2727ab;
+  background-color: none;
   color: white;
 }
 
