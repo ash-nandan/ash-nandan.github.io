@@ -37,9 +37,9 @@ element.style {
 .footer {
   position: fixed;
   font-size: small;
-  left: 150px;
+  left: 20px;
   bottom: 0;
-  height: 6%;
+  height: 7%;
   width: 47%;
   background-color: none;
   color: white;
