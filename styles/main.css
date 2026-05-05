@@ -19,7 +19,7 @@ body {
   body {
     background-attachment: scroll;
     background-size: contain;
-    background-position: top center;
+    background-position: top left;
   }
 }
 
