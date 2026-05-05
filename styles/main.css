@@ -7,11 +7,17 @@ body {
   background-color: #312b2b;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 40% 100%;
+  background-size: 47% 100%;
   background-position: left top;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font:
+    20px 'Lato',
+    sans-serif;
 }
 
 element.style {
@@ -20,10 +26,11 @@ element.style {
 
 .footer {
   position: fixed;
+  font-size: medium;
   left: 0;
   bottom: 0;
   height: 6%;
-  width: 40%;
+  width: 47%;
   background-color: #2e2727ab;
   color: white;
 }
